@@ -1,0 +1,56 @@
+@media only screen and (max-width: 600px){
+  body{
+    background-color: aliceblue;
+  }
+}
+#main{
+  max-width: 1280px;
+  max-height: 100%;
+  margin: 30px auto;
+  text-align: center;
+  background-color: #ebebe0;
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  font-size: 30px;
+}
+#tittle{
+  border-radius: 10px;
+ 
+  
+}
+#img-div{
+  padding-bottom: 5px;
+  margin-left: 55px;
+  margin-right: 55px;
+  background-color: white;
+  border-radius: 5px;
+}
+#img-caption{
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+@media only screen and (max-width: 400px){
+#description{
+  margin-left: 230px;
+  margin-right: 230px;
+  text-align: justify;
+  background-color: #ebebe0;
+  padding-left: 180px;
+  padding-right: 180px;
+  font-size: 20px;
+  
+}
+ }
+#desc{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h4{
+  font-size: 20px;
+}
+#list{
+  text-align: justify;
+}
